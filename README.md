@@ -11,7 +11,14 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
 ##Run steamlit app
-1. untuk local komuter:
+1. untuk local komputer:
+   * clone repository ke local komputer:
+   ``` python
+      git clone https://github.com/Mrama1011-mr/submission_analisis_data.git
+   ```
+   * lalu run dashboard,py
+   ```python
    streamlit run dashboard/dashboard.py
+   ```
 3. untuk akses secara online :
    [submission analysis data](https://aj6hegnfawg36efnypy7vg.streamlit.app/)
