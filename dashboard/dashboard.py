@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import datetime as dt
-from babel.numbers import format_currency
 
 def create_byproduct_df(df):
     sum_orders_df = df.groupby("product_category_name_english").product_id.count().sort_values(ascending=False).reset_index()
