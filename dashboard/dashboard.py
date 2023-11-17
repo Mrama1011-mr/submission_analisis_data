@@ -38,7 +38,7 @@ def create_rfm_df(df):
     rfm.columns = col_list
     return rfm
 
-all_df = pd.read_csv("dashboard/main_data.csv")
+all_df = pd.read_csv("submission_analisis_data/dashboard/main_data.csv")
 
 datetime_columns=["order_approved_at",]
 for column in datetime_columns:
